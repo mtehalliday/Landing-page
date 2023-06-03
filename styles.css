@@ -30,3 +30,17 @@ a {
     color: #e5e7eB
     
 }
+
+.body {
+    padding: 40px;
+    background: #1F2937; 
+}
+
+.top-section {
+    color: white;
+}
+
+.awesome {
+    font-size: 48px;
+    font-weight: 900;
+}
