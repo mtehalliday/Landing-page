@@ -41,12 +41,20 @@ a {
 .top-section {
     color: white;
     display: flex;
+    margin: 40px 0;
+    margin-right: 40px;
+}
+
+.left {
+    flex: auto;
+    width: 100%;
+    height: auto;
+   
 }
 
 .awesome {
     font-size: 48px;
     font-weight: 900;
-    flex: 1;
 }
 
 .text {
@@ -58,6 +66,8 @@ img {
     flex: 1;
     width: 100%;
     height: auto;
+    min-width: 322px;
+    padding: 32px;
 }
 
 button {
