@@ -135,3 +135,24 @@ button {
     font-weight: 700;
     text-align: right;
 }
+
+.blue-box {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #3882F6;
+    padding: 46px;
+    margin: 50px 100px;
+    border-radius: 4px;
+    color: #F9FAF8;
+}
+
+.call {
+    font-weight: 700;
+    padding-bottom: 8px;
+    font-size: 24px;
+}
+
+.blue-box button {
+    border: solid 2px;
+}
