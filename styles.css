@@ -136,15 +136,28 @@ button {
     text-align: right;
 }
 
+
+
 .blue-box {
     display:flex;
     justify-content: space-between;
     align-items: center;
     background: #3882F6;
-    padding: 46px;
+    padding: 46px 100px;
     margin: 50px 100px;
     border-radius: 4px;
     color: #F9FAF8;
+    gap: 42px;
+    flex: 1;
+
+}
+.bottom-section {
+    display:flex;
+    justify-content: center;
+}
+
+.words {
+    max-width: 500px;
 }
 
 .call {
@@ -155,4 +168,14 @@ button {
 
 .blue-box button {
     border: solid 2px;
+    flex-basis: 1;
+}
+
+.footer {
+    display:flex;
+    justify-content: center;
+    text-align: center;
+    background: #1F2937;
+    color:#F9FAF8; 
+    padding: 24px;
 }
