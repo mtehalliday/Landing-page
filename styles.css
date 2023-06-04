@@ -63,7 +63,7 @@ a {
     color: #E5E7EB;
 }
 
-img {
+.top-section img {
     flex: 1;
     width: 100%;
     height: auto;
@@ -82,7 +82,24 @@ button {
 
 .middle-section {
     background:#F9FAF8; 
+    padding: 16px;
+    margin: 8px;
 }
 .container {
     display: flex;
+    justify-content:center;
+    align-items: center;
+    flex: wrap;
+    gap: 32px;
+}
+
+.container .img-holder {
+    flex: 50%;
+    max-height: 270px;
+    width: 15%;
+    padding: 8px;
+}
+.container img {
+    flex: 1;
+    width: 80px;
 }
