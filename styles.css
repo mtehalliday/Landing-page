@@ -1,6 +1,6 @@
 body {
     font-family: roboto, sans-serif;
-    margin: 24px;
+    padding: 8px;
 }
 
 
@@ -86,7 +86,6 @@ button {
     margin-left: 8px;
     margin-right: 8px;
     text-align: center;
-    margin-bottom: 50px;
     padding-bottom: 32px;
 }
 
@@ -105,17 +104,33 @@ button {
     gap: 32px;
     text-align: center;
     margin: 46px 0;
+    min-width: 0;
 }
 
 .container .img-holder {
     flex: 25%;
     max-height: 270px;
     width: 15%;
-    min-width: 70px;
     padding: 8px;
 }
 .container img {
     flex: 1;
     width: 100px;
     border-radius: 8px;
+}
+
+.quote-section {
+    background: #E5E7EB;
+    font-size: 36px;
+    color: #1F2937;
+    padding: 96px 144px;
+    font-style: italic;
+    font-weight: 300;
+}
+.author {
+    color: #1f2937; 
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    text-align: right;
 }
