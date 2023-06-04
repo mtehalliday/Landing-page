@@ -34,16 +34,16 @@ a {
 }
 
 .body {
-    padding: 40px;
-    background: #1F2937; 
+    background: #F9FAF8;
 }
 
 .top-section {
     background:#1F2937;  
-    color: white;
+    color: #F9FAF8;
     display: flex;
-    margin: 40px 0;
-    margin-right: 40px;
+    margin: 0;
+    margin-right: 0px;
+    padding: 40px;
 }
 
 .left {
@@ -69,6 +69,7 @@ a {
     height: auto;
     min-width: 322px;
     padding: 32px;
+    margin-right: 24px;
 }
 
 button {
